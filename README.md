@@ -15,13 +15,13 @@
 ## Prerequisites: basic utilities (Please NOTE that the version of the utilities should be the same. e.g. when python-clang-3.6 is not available, you may use python-clang-6.0, and the corresponding libclang should be libclang-6.0.dev)
 - gcc, g++, make
 - python 2.7
-- python-clang-3.6 (s2s compiler)
-- libclang-3.6-dev (s2s compiler)
-- linux-headers (DPDK)
-- unzip (Rapidjson)
-- libssl-dev (sample applications)
-- libpcre3-dev (DPI)
-- libpcap-dev (PRAD)
+- python-clang-3.6 (s2s compiler) sudo apt-get install python-clang-3.6
+- libclang-3.6-dev (s2s compiler) sudo apt-get install libclang-3.6-dev
+- linux-headers (DPDK) sudo apt-get install linux-headers-$(uname -r)
+- unzip (Rapidjson) sudo apt-get install unzip
+- libssl-dev (sample applications) sudo apt-get install libssl-dev
+- libpcre3-dev (DPI) sudo apt-get install libpcre3-dev
+- libpcap-dev (PRAD) sudo apt-get install libpcap-dev
 
 ## Prerequisites: 3rd-party libraries
 - C++ BOOST
