@@ -12,7 +12,7 @@
 
 # Compiling S6 library
 
-## Prerequisites: basic utilities
+## Prerequisites: basic utilities (Please NOTE that the version of the utilities should be the same. e.g. when python-clang-3.6 is not available, you may use python-clang-6.0, and the corresponding libclang should be libclang-6.0.dev)
 - gcc, g++, make
 - python 2.7
 - python-clang-3.6 (s2s compiler)
