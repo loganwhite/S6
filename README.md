@@ -35,12 +35,12 @@ $ ./build.py build deps
 ### Building BESS
 https://github.com/NetSys/bess
 
-## Building main library
-$ ./build.py build deps.  # build the dependencies
+## Building main library and apps
 $ ./build.py              # build all (generating source, building core and apps)
 
 # Running S6
 
 ## Running S6 controller
 $ ./s6ctl/controller.py   # No such a file found in the directory, simply don't use it.
+
 $ ./s6ctl                 # Use the public key method ssh login to simplify the process.
