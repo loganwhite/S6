@@ -12,7 +12,7 @@
 
 # Compiling S6 library
 
-## Prerequisites: basic utilities (Please NOTE that the version of the utilities should be the same. e.g. when python-clang-3.6 is not available, you may use python-clang-6.0, and the corresponding libclang should be libclang-6.0.dev)
+## Prerequisites: basic utilities (**Using Ubuntu 16.04 LTS and the mentioned version of tools will not generate errors**)
 - gcc, g++, make
 - python 2.7
 - python-clang-3.6 (s2s compiler) sudo apt-get install python-clang-3.6
